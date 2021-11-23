@@ -4,7 +4,7 @@ class Fract:
         self.d = d
     
     def show(self):
-        print(self.u,'/',self.d)
+        print(self.u , '/' , self.d)
     
     def sum(self , other):
         return Fract(self.u * other.d + self.d * other.u , self.d * other.d)
