@@ -9,12 +9,13 @@ for i in range(len(boys)):
     x = random.randint(0,len(boys)-1)
     y = random.randint(0,len(girls)-1)
 
-    select_boys = boys[x]
-    boys.remove(select_boys)
-    
     select_girls = girls[y]
     girls.remove(select_girls)
+    
+    select_boys = boys[x]
+    boys.remove(select_boys)
 
-    res.append(select_boys + " + " + select_girls)
+
+    res.append(select_girls + " + " + select_boys)
 
 print(res)
