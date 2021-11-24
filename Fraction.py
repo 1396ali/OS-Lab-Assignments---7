@@ -1,7 +1,7 @@
 class Fract:
-    def __init__(self,u,d):
-        self.u = u
-        self.d = d
+    def __init__(self,up,down):
+        self.u = up
+        self.d = down
     
     def show(self):
         print(self.u , '/' , self.d)
